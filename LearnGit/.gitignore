@@ -1,0 +1,197 @@
+# .gitignore 文件模板
+
+# ===========================================
+# 通用规则
+# ===========================================
+
+# 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+
+# 可执行文件
+*.out
+*.app
+
+# 目标文件和库
+*.a
+*.lib
+*.obj
+*.o
+*.pyc
+*.pyo
+
+# 预编译头文件
+*.gch
+*.pch
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# 备份文件
+*.bak
+*.tmp
+*.orig
+
+# ===========================================
+# 语言特定规则
+# ===========================================
+
+# C/C++
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+build/
+dist/
+*.egg-info/
+__pycache__/
+
+# C++ Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+Debug/
+Release/
+*.aps
+*.exp
+
+# Qt
+*.pro.user
+*.pri
+
+# Java
+.classpath
+.project
+.settings/
+target/
+.mvn/
+mvnw
+mvnw.cmd
+*.jar
+*.war
+*.ear
+*.ear
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+.venv
+
+# JavaScript/Node
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+dist/
+build/
+.next/
+out/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Rust
+target/
+Cargo.lock
+
+# Ruby
+*.gem
+.bundle/
+vendor/bundle/
+*.rb
+
+# PHP
+vendor/
+*.cache
+*.log
+
+# Swift
+xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+DerivedData/
+*.hmap
+*.ipa
+
+# ===========================================
+# 操作系统文件
+# ===========================================
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.file
