@@ -1,0 +1,5 @@
+F:/Code/Trae_code/CppMastery/mydb/build/CMakeFiles/mydb_stage1.dir
+F:/Code/Trae_code/CppMastery/mydb/build/CMakeFiles/mydb_stage2.dir
+F:/Code/Trae_code/CppMastery/mydb/build/CMakeFiles/mydb_stage3.dir
+F:/Code/Trae_code/CppMastery/mydb/build/CMakeFiles/ALL_BUILD.dir
+F:/Code/Trae_code/CppMastery/mydb/build/CMakeFiles/ZERO_CHECK.dir
